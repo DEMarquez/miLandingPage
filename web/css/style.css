@@ -1,0 +1,30 @@
+h1 {
+   color: black;
+   font-style: italic;
+   font-size: 60px;
+   margin-bottom: 0px;
+}
+
+body {
+   text-align: center;
+}
+
+input {
+    font-size: 25px;
+    background-color: #b3ffff;
+    width:auto;
+    height:auto;
+    border-radius: 6px;
+
+}
+
+pre {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+img {
+   width:600px;
+   height:350px;
+   border-radius: 10px;
+}

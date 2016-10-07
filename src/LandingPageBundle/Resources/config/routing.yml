@@ -1,0 +1,11 @@
+landing_page_homepage:
+    path:     /
+    defaults: { _controller: LandingPageBundle:Default:index }
+
+prueba_producto1:
+    path:     /producto1/
+    defaults: { _controller: LandingPageBundle:Default:producto1 }
+
+prueba_producto2:
+    path:     /producto2/
+    defaults: { _controller: LandingPageBundle:Default:producto2 }
