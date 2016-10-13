@@ -3,9 +3,5 @@ landing_page_homepage:
     defaults: { _controller: LandingPageBundle:Default:index }
 
 prueba_producto1:
-    path:     /producto1/
+    path:     /producto1/{id}
     defaults: { _controller: LandingPageBundle:Default:producto1 }
-
-prueba_producto2:
-    path:     /producto2/
-    defaults: { _controller: LandingPageBundle:Default:producto2 }

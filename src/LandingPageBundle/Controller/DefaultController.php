@@ -11,15 +11,16 @@ class DefaultController extends Controller
         return $this->render('LandingPageBundle:Default:index.html.twig');
     }
 
-    public function producto1Action()
+    public function producto1Action($id)
     {
-        return $this->render('LandingPageBundle:Default:producto1.html.twig');
+      if($id==1){
+        return $this->render('LandingPageBundle:Default:producto1.html.twig',array('id'=>$id));
+      }else{
+        return $this->render('LandingPageBundle:Default:producto2.html.twig',array('id'=>$id));
+      }
     }
 
-    public function producto2Action()
-    {
-        return $this->render('LandingPageBundle:Default:producto2.html.twig');
-    }
 
-    
+
+
 }
